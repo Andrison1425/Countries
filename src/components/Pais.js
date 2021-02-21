@@ -38,7 +38,7 @@ const Pais = () => {
                         <span>
                             <h4>Sub Region: </h4>{pais.subregion}
                         </span>
-                        <span>
+                        <span className="separador">
                             <h4>Capital: </h4>{pais.capital}
                         </span>
                         <span>

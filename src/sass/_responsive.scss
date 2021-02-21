@@ -1,0 +1,96 @@
+@media(max-width:1200px){
+    .listado__paises{
+        grid-gap:1rem;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .cont-info {
+        height: 14rem;
+        img{
+            width: 350px;
+        }
+    }
+
+    .bordes{
+        display: block;
+        margin-top: 10px;
+    }
+
+    .info{
+        padding: 0 2rem;
+    }
+}
+
+@media(max-width:770px){
+    .listado__paises{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .listado__acciones{
+        flex-direction: column;
+    }
+
+    .listado__select{
+        height: 3rem;
+        width: 50%;
+        margin-top: 1rem;
+    }
+
+    .listado__cont-input{
+        width: 100%;
+    }
+
+    .cont-info{
+        height: max-content;
+        flex-direction: column;
+        img{
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    .info{
+        padding: 0;
+    }
+}
+
+@media(max-width:570px){
+    .listado__paises{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    h1{
+        font-size: 1.2rem;
+    }
+}
+
+@media(max-width:420px){
+    .p-content{
+        padding: 0 1rem;
+    }
+
+    .listado__select{
+        width: 100%;
+    }
+
+    .listado__main,.info__main{
+        padding: 1rem 1.5rem;
+    }
+
+    .info-flex{
+        height: max-content;
+        flex-direction: column;
+    }
+
+    .info-flex > .separador{
+        margin-bottom: 2rem;
+    }
+
+    .info h2{
+        font-size: 1.6rem;
+    }
+
+    h1{
+        font-size: 1rem;
+    }
+}

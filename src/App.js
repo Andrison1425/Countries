@@ -5,7 +5,6 @@ import ListadoPaises from './components/ListadoPaises';
 import store from './store';
 import {BrowserRouter as Router,Route,Switch} from 'react-router-dom';
 import Pais from './components/Pais';
-import './sass/styles-dark.scss';
 
 const App = () => {
     return (

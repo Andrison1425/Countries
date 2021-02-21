@@ -3,6 +3,10 @@
     text-decoration: none;
 }
 
+html,body{
+    min-width: 100vw;
+}
+
 body{
     font-size: 14px;
     color:$azul-muy-oscuro-light;
